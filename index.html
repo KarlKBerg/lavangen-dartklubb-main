@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://gstatic.com" crossorigin />
+    <link href="https://googleapis.com" rel="stylesheet" />
+    <meta
+      name="description"
+      content="Lavangen dartklubb er en nyoppstartet klubb for alle. Om du aldri har kastet før, eller ser på deg som ekspert er du hjertelig velkommen. Finn all info her og møt opp på neste trening!"
+    />
+    <script
+      src="https://kit.fontawesome.com/b5a5784c82.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Lavangen dartklubb</title>
+  </head>
+  <body>
+    <header>
+      <a href="index.html" class="logo"
+        >Lavangen <span class="red">dartklubb</span></a
+      >
+      <button
+        id="hamburger"
+        aria-label="Toggle navigation"
+        aria-expanded="false"
+      >
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <nav class="main-nav">
+        <a href="#treningstider">Treningstider</a>
+        <a href="#sponsors">Sponsorer</a>
+        <a href="#medlemskap">Medlemskap</a>
+        <a href="#spørsmål">Spørsmål</a>
+        <a href="#kontakt">Kontakt oss</a>
+      </nav>
+    </header>
+    <main>
+      <nav id="nav-menu" class="nav-menu">
+        <ul class="nav-list">
+          <li><a href="#treningstider">Treningstider</a></li>
+          <li><a href="#sponsors">Sponsorer</a></li>
+          <li><a href="#medlemskap">Medlemskap</a></li>
+          <li><a href="#spørsmål">Spørsmål</a></li>
+          <li><a href="#kontakt">Kontakt oss</a></li>
+        </ul>
+      </nav>
+      <div id="hero">
+        <div class="buttons-container">
+          <div class="buttons">
+            <a href="#treningstider" id="time-button">Se treningstider</a>
+            <a href="#ny-i-dart" id="new-dart-button">Aldri kastet dart før?</a>
+          </div>
+        </div>
+      </div>
+
+      <section id="ny-i-dart">
+        <h3 class="section-heading">NY I DART?</h3>
+        <div class="step-container">
+          <div class="step">
+            <div class="number">1.</div>
+            <h4 class="card-heading">Bare kom</h4>
+            <p class="desc">
+              Mandager og Torsdager mellom 18:00 og 22:00. Ingen påmelding eller
+              forkunnskaper nødvendig.
+            </p>
+          </div>
+
+          <div class="step">
+            <div class="number">2.</div>
+            <h4 class="card-heading">Lån piler hos oss</h4>
+            <p class="desc">
+              Klubben har piler til utlån. Om du ønsker å kjøpe egne piler, kan
+              vi hjelpe deg å velge - 20 til 24 gram passer de fleste.
+            </p>
+          </div>
+
+          <div class="step">
+            <div class="number">3.</div>
+            <h4 class="card-heading">Spill forskjellige spill</h4>
+            <p class="desc">
+              Bli med andre å spill 501/301, Mikke mus, Killer, best av 10 osv.
+              Reglene forklares til de som ikke kan.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="treningstider">
+        <h3 class="section-heading">TRENINGSTIDER</h3>
+        <div class="day-card-container" id="trening">
+          <div class="day-card">
+            <div class="day-top"><h4>Mandag</h4></div>
+            <div class="day-info">
+              <h4 class="card-heading">18:00 - 22:00</h4>
+              <p class="desc">
+                Åpen trening. Interne kamper, Mikke mus, killer, etc.
+              </p>
+            </div>
+          </div>
+
+          <div class="day-card">
+            <div class="day-top"><h4>Torsdag</h4></div>
+            <div class="day-info">
+              <h4 class="card-heading">18:00 - 22:00</h4>
+              <p class="desc">
+                Åpen trening. Interne kamper, Mikke mus, killer, etc.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="sponsors">
+        <h3 class="section-heading">SPONSORER</h3>
+        <div class="sponsorer">
+          <h4>Stor takk til:</h4>
+          <div class="sponsorer-container">
+            <a href="https://byggfag.no/forhandlere/byggfag-lavangen"
+              ><img
+                src="src/assets/sponsor-byggfag.jpg"
+                alt="Sponsor av lavangen dartklubb, Byggfag."
+            /></a>
+            <a href="https://www.lavangenmaskin.no/"
+              ><img
+                src="src/assets/sponsor-lavangen-maskin.png"
+                alt="Sponsor av Lavangen dartklubb, Lavangen maskin AS."
+            /></a>
+          </div>
+        </div>
+        <div class="sponsor-container">
+          <h4>Vil du være med å sponse oss?</h4>
+          <p>
+            Ta gjerne kontakt med oss på mail, tlf, eller på våre treningsdager.
+          </p>
+          <a href="#kontakt">Kontakt oss her!</a>
+        </div>
+      </section>
+
+      <section id="medlemskap">
+        <h3 class="section-heading">MEDLEMSKAP</h3>
+        <div class="day-card-container">
+          <div class="day-card">
+            <div class="day-top"><h4>Under 18år</h4></div>
+            <div class="day-info">
+              <div class="price-info">
+                <h4 class="card-heading">150</h4>
+                <p class="desc">Kr / 6mnd</p>
+              </div>
+              <p class="desc">Til og med det året du fyller 18 år.</p>
+            </div>
+          </div>
+
+          <div class="day-card">
+            <div class="day-top"><h4>Over 18år</h4></div>
+            <div class="day-info">
+              <div class="price-info">
+                <h4 class="card-heading">300</h4>
+                <p class="desc">Kr / 6mnd</p>
+              </div>
+              <p class="desc">Fra 18 år og opp.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="spørsmål">
+        <h3 class="section-heading">OFTE STILLTE SPØRSMÅL</h3>
+        <ul id="faq-container"></ul>
+      </section>
+
+      <section id="kontakt">
+        <h3 class="section-heading">KONTAKT OSS</h3>
+        <div class="contact-container">
+          <div class="contact-card">
+            <div id="email" class="contact-item">
+              <i class="fa-solid fa-envelope"></i>
+              <a href="mailto:karlkristianeberg@gmail.com"
+                >karlkristianeberg@gmail.com</a
+              >
+            </div>
+            <div id="phone" class="contact-item">
+              <i class="fa-solid fa-phone"></i>
+              <p>+47 95764512</p>
+            </div>
+            <div id="socials">
+              <a href="https://www.facebook.com/profile.php?id=61593824978281"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <a href="index.html" class="logo"
+          >Lavangen <span class="red">dartklubb</span></a
+        >
+        <small>&copy; Lavangen dartklubb</small>
+
+        <img src="src/assets/logo.jpg" alt="Lavangen dartklubb logo" />
+      </footer>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
