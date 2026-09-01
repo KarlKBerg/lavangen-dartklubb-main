@@ -1,4 +1,4 @@
-import { renderFaq } from "./data/faq";
+import { renderFaq } from "./data/faq.js";
 
 renderFaq();
 
