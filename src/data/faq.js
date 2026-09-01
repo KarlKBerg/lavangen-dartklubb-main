@@ -15,13 +15,9 @@ const faq = [
       "Det er ingen fastsatt aldersgrense, men barn under 12 år må være i følge med foresatt",
   },
   {
-    question: "Hvor god må jeg være for å bli med i serien?",
-    answer: "Alle kan mede seg på den interne serien uansett nivå",
-  },
-  {
-    question: "Koster det noe å delta i turneringer?",
+    question: "Kan jeg komme å se på?",
     answer:
-      "Nei, ikke turneringer som spilles på klubbkvelder. Voksenturneringer vil ha en liten sum, hvor 80% går til vinnere, og 20% går til klubben",
+      "Selvfølgelig! Om du ikke ønsker å spille enda, kan du fint komme å observere først.",
   },
 ];
 
