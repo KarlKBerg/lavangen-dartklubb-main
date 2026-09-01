@@ -2,8 +2,8 @@ import { renderFaq } from "./data/faq.js";
 
 renderFaq();
 
-const hamburger = document.querySelector < HTMLButtonElement > "#hamburger";
-const navMenu = document.querySelector < HTMLElement > "#nav-menu";
+const hamburger = document.querySelector("#hamburger");
+const navMenu = document.querySelector("#nav-menu");
 
 if (hamburger && navMenu) {
   hamburger.addEventListener("click", () => {
