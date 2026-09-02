@@ -23,5 +23,3 @@ if (hamburger && navMenu) {
     });
   });
 }
-
-<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "ab8d63750bfe4564bfc2dc5ef79d4b58"}'></script><!-- End Cloudflare Web Analytics -->
